@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: serif;
     overflow-x: hidden;
 }
 
@@ -28,7 +28,7 @@ nav ul {
 nav ul li a {
     color: aliceblue;
     text-decoration: none;
-    font-family: 'Lobster', cursive;
+    font-family: cursive;
     font-size: 18px;
 }
 
@@ -298,7 +298,7 @@ div#service div img {
 .captionAboutUs h2 {
     font-size: 2.5rem;
     padding: 10px;
-    font-family: cursive;
+    font-family: serif;
     color: #4361ee;
     font-weight: bold;
     text-shadow: 4px 4px 8px grey;
@@ -332,7 +332,7 @@ footer {
 #around {
     width: 350px;
     text-align: center;
-    font-family: cursive;
+    font-family: serif;
 }
 
 #atas div h2 {
