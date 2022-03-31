@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #kata {
+        padding: 20px;
+    }
+    
+    #satu span {
+        display: block;
+        width: 0;
+        height: 2px;
+        background-color: red;
+    }
+    
+    #kata:hover #satu span {
+        animation-name: animasi;
+    }
+    
+    @keyframes animasi {
+        0% {
+            width: 1px;
+        }
+        100% {
+            width: 100px;
+        }
+    }
+</style>
+
+<body>
+    <div id="satu">
+        <a href="#" id="kata">Danni</a>
+        <span></span>
+
+    </div>
+
+    <!-- <div>
+        <a href="https://api.whatsapp.com/send?phone=6288228573966&text=Halo%20Klino,%20%20Mau%20nanya%20dong,%20saya%20dapet%20info%20dari%20website%20KliknKlin">
+            <img src="img/whatsapp.png" alt="whatsapp" width="100px">
+        </a>
+    </div> -->
+</body>
+
+</html>
